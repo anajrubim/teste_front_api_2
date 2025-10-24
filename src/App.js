@@ -91,7 +91,12 @@ const App = () => {
       </table>
 
       {linhaAtualTop !== null && (
-        <div className="linha-horario-atual" style={{ top: `${linhaAtualTop}px` }}></div>
+        <div
+          className="linha-horario-atual"
+          style={{
+            top: `${linhaAtualTop - 18}px`, 
+          }}
+        ></div>
       )}
     </div>
   );
