@@ -1,5 +1,5 @@
-npx create-react-app TESTE_API_CALENDARIO
-cd TESTE_API_CALENDARIO
+npx create-react-app teste_front_api_2
+cd teste_front_api_2
 
 
 npm install
